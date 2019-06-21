@@ -13,17 +13,21 @@ import javax.swing.JOptionPane;
  */
 public class HolaMundoConsola {
 
+    private static void ImprimirMensaje(){
+            System.out.println("hi");
+             String pez= JOptionPane.showInputDialog("");
+        
+        }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-              System.out.println("hi");
-             String pez= JOptionPane.showInputDialog("");
-        
+        ImprimirMensaje();
+             
     }   
-
+    
+    
     
     
 }
